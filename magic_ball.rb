@@ -29,14 +29,14 @@ answers = [
   'Весьма сомнительно'
 ]
 
-greeting = [
+greetings = [
   'Привет, дорогой друг. Отвечаю на твой вопрос...',
   'Кто вопрошает, тот получит ответ:',
   'Здравствуй, смертный. Сегодня для тебя такой ответ:'
 ]
 
 # Выводим случайный элемент массива answers
-puts greeting.sample
+puts greetings.sample
 puts
 sleep 2
 puts answers.sample
